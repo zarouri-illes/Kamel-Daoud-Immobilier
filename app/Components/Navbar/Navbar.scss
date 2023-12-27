@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&family=Nunito:wght@600&family=Roboto+Condensed:wght@100;300;400;500;700&display=swap');
+
+root {
+    --primary: #e50f43;
+
+    --biggestFontSize: 2.5rem;
+    --h1FontSize: 2rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallestFontSize: 0.75rem;
+    --borderRadius: 3rem;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    position: fixed;
+    border-bottom: 1.5px solid var(--primary);
+}
+
+.logoDiv {
+    width: 220px;
+    border-radius: var(--borderRadius);
+}
